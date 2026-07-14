@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 class GameInfo:
     def __init__(self):
         self.TitleId: str = "BA9EA"  # Playfab Title Id
-        self.SecretKey: str = "F6EUKGAXZN5WWDWMMQCY9PGROH5RONJBMDCF5NTWC385889EP"  # Playfab Secret Key
+        self.SecretKey: str = "F6EUKGAXZN5WWDWMMQCY9PGROH5RONJBMDCF5NTWC385889EP4"  # Playfab Secret Key
         self.ApiKey: str = "OC|1220023021194881|541cbb023e0b0003dbac8c8dc9496e6a"  # App Api Key (Oculus/Graph API)
 
     def get_auth_headers(self):
@@ -205,7 +205,7 @@ def titledata():
         "SeasonalStoreBoardSign": "<color=red>RATE THE GAME 5 STARS!</color>\n<color=blue>.GG/UNLOADTAG</color>",
         # Text and Messages
         "EmptyFlashbackText": "FLOOR TWO NOW OPEN\n FOR BUSINESS\n\nSTILL SEARCHING FOR\nBOX LABELED 2021",
-        "MOTD": "<color=#FFC0CB>WELCOME TO OLD RUNNERS!</color>\n\n<color=#0099c2>CURRENT UPDATE: SUMMER23</color>\n<color=#cacfd2>OWNERS: ZENON, DRACIFYY</color>\n<color=#41ff80>ZENON MADE THIS MOTD</color>\n<color=#6417ff>OUR DEVELOPERS ARE: ZENON</color>\n<color=#ac1a00>TS TUFF</color>\n\n<color=#91A3B0>discord.gg/bY7teEWsfm</color>",
+        "MOTD": "<color=#FFC0CB>WELCOME TO CHRISTMAS TAG!</color>\n\n<color=#0099c2>CURRENT UPDATE: XMAS24</color>\n<color=#cacfd2>BOOST THE DISCORD FOR ALL COSMETICS (EXCLUDING STAFF COS)</color>\n<color=#41ff80>YANDERE MADE THIS MOTD</color>\n<color=#6417ff>OUR DEVELOPERS ARE: FATAL & CASHSMILE</color>\n<color=#ac1a00>CREDITS FOR GAMES OG OS: VIPER</color>\n\n<color=#91A3B0>discord.gg/CHRISTMASTAG</color>",
         "TOBAlreadyOwnCompTxt": "DISCORD.GG/CHRISTMASTAG",
         "TOBAlreadyOwnPurchaseBundle": "CHRISTMAS TAG",
         "TOBDefCompTxt": "DISCORD.GG/CHRISTMASTAG",
